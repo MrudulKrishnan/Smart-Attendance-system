@@ -1,0 +1,38 @@
+{#<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">#}
+{#<html xmlns="http://www.w3.org/1999/xhtml">#}
+{#<head>#}
+{#<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />#}
+{#<title>Untitled Document</title>#}
+{#</head>#}
+{##}
+{#<body>#}
+{% extends 'admin_index.html' %}
+{% block body %}
+
+<form id="form1" name="form1" method="post" action="">
+  <table width="200" border="1" class="table table-dark table-hover">
+    <tr>
+      <td>NAME</td>
+      <td>ADDRESS</td>
+      <td>PHONE</td>
+      <td>EMAIL</td>
+      <td>&nbsp;</td>
+    </tr>
+      {% for i in college_obj %}
+    <tr>
+      <td>&nbsp;{{ i.name }}</td>
+      <td>&nbsp;{{ i.place }}, {{ i.post }}, {{ i.pin }}</td>
+      <td>&nbsp;{{ i.phone }}</td>
+      <td>&nbsp;{{ i.email }}</td>
+      <td><a href="{% url 'edit_college' college_id=i.LOGIN_id %}#about">Edit</a>
+	  <a href="{% url 'delete_college' college_id=i.LOGIN_id %}">Delete</a></td>
+    </tr>
+      {% endfor %}
+    <tr>
+      <td colspan="5"><div align="center"><a href="{% url 'add_college' %}#about">add</a></div></td>
+    </tr>
+  </table>
+</form>
+{#</body>#}
+{#</html>#}
+{% endblock %}

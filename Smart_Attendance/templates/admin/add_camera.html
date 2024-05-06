@@ -1,0 +1,48 @@
+{#<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">#}
+{#<html xmlns="http://www.w3.org/1999/xhtml">#}
+{#<head>#}
+{#<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />#}
+{#<title>Untitled Document</title>#}
+{#</head>#}
+{##}
+{#<body>#}
+{% extends 'admin_index.html' %}
+{% block body %}
+<form id="form1" name="form1" method="post" action="{% url 'add_camera_action' %}">
+  <table width="340" border="1" class="table table-dark table-hover">
+    <tr>
+      <td>College</td>
+      <td><div align="center">
+        <select name="college">
+            {% for i in college_obj %}
+            <option value="{{ i.id }}">{{ i.name }}</option>
+            {% endfor %}
+        </select>
+      </div></td>
+    </tr>
+    <tr>
+      <td>Department</td>
+      <td><div align="center">
+        <select name="department">
+            {% for i in department_obj %}
+                <option value="{{ i.id }}">{{ i.department }}</option>
+            {% endfor %}
+        </select>
+      </div></td>
+    </tr>
+    <tr>
+      <td>Camera No. </td>
+      <td><div align="center">
+        <input type="text" name="CameraNo" />
+      </div></td>
+    </tr>
+    <tr>
+      <td colspan="2"><div align="center">
+        <input type="submit" name="Submit" value="Add" />
+      </div></td>
+    </tr>
+  </table>
+</form>
+{#</body>#}
+{#</html>#}
+{% endblock %}

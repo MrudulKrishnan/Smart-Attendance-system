@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Smart_Attendance/Smart_Attendance_Android/app/src/main/res/layout/activity_custom_send_complaints_view_reply.xml" value="0.16485507246376813" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Smart_Attendance/Smart_Attendance_Android/app/src/main/res/layout/activity_custom_view_attendance.xml" value="0.33" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Smart_Attendance/Smart_Attendance_Android/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Smart_Attendance/Smart_Attendance_Android/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Smart_Attendance/Smart_Attendance_Android/app/src/main/res/layout/activity_send_complaints_view_reply.xml" value="0.16485507246376813" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Smart_Attendance/Smart_Attendance_Android/app/src/main/res/layout/activity_send_feedback.xml" value="0.16485507246376813" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Smart_Attendance/Smart_Attendance_Android/app/src/main/res/layout/activity_send_rating_review.xml" value="0.16485507246376813" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Smart_Attendance/Smart_Attendance_Android/app/src/main/res/layout/activity_sent_complaint.xml" value="0.16485507246376813" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Smart_Attendance/Smart_Attendance_Android/app/src/main/res/layout/activity_student_home.xml" value="0.16485507246376813" />
+        <entry key="..\:/WORK/PROGRAM FILES/PROJECTS/Smart_Attendance/Smart_Attendance_Android/app/src/main/res/layout/activity_view_attendance.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

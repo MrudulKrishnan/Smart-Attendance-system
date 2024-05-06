@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/st_bg"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".student_home">
+
+    <Button
+        android:id="@+id/B1_ViewAttendance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="View Attendance" />
+
+    <Button
+        android:id="@+id/B2_AddComplaintReply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Complaint reply" />
+
+    <Button
+        android:id="@+id/B3_SendFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Send feedback" />
+
+    <Button
+        android:id="@+id/B4_SendRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Send rating" />
+
+    <Button
+        android:id="@+id/B5_Logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Logout" />
+</LinearLayout>
